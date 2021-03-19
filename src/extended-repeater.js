@@ -23,7 +23,6 @@ module.exports = function repeater(str, options) {
   for(let i = 0; i < options.repeatTimes; i++){
 		newStr.push( str + addStr );
 	}
-  
   return newStr.join(options.separator);
 
 };
